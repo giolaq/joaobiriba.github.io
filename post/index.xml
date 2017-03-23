@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Laquysoft</title>
+    <link>/post/index.xml</link>
+    <description>Recent content in Posts on Laquysoft</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Dec 2014 21:47:44 +0000</lastBuildDate>
+    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Mastering Dart Book Review</title>
+      <link>/2014/12/mastering-dart-book-review/</link>
+      <pubDate>Wed, 17 Dec 2014 21:47:44 +0000</pubDate>
+      
+      <guid>/2014/12/mastering-dart-book-review/</guid>
+      <description>&lt;figure&gt;
+  &lt;a href=&#34;https://www.packtpub.com/web-development/mastering-dart&#34;&gt;&lt;img src=&#34;https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/9560OS_Mastering%20DART_Cover.jpg&#34;&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.dartlang.org/&#34;&gt;Dart&lt;/a&gt; community is growing so much and many books about this wonderful
+ web oriented language are borning.&lt;/p&gt;
+
+&lt;p&gt;I read quite all of them and they all covered the basic of the language
+and the development platform. To go in depth to the full power of Dart
+we need to join the discussions all over the web ( &lt;a href=&#34;https://plus.google.com/communities/114566943291919232850&#34;&gt;G+ Dartisans Community&lt;/a&gt;, &lt;a href=&#34;http://stackoverflow.com/questions/tagged/dart&#34;&gt;StackOverflow&lt;/a&gt;, &lt;a href=&#34;https://groups.google.com/a/dartlang.org/forum/#!forum/web&#34;&gt;Google Groups&lt;/a&gt; etc. ).&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Mastering Dart&amp;rdquo; will help you to go beyond the &amp;ldquo;Hello world&amp;rdquo; code.&lt;/p&gt;
+
+&lt;p&gt;It has twelve chapters of cool must-to-known pattern very useful when
+ we have to face off the common problems in developing complex applications.&lt;/p&gt;
+
+&lt;p&gt;There are good examples, ( all the source code can be downloaded on the website ).
+I had appreciated even more examples and source code.&lt;/p&gt;
+
+&lt;p&gt;Every chapter is well written with very good attention
+by the author and maybe the reviewers.&lt;/p&gt;
+
+&lt;p&gt;I think it&amp;rsquo;s a must have to any Go-Beyond-The-Basics Dart Developers.&lt;/p&gt;
+
+&lt;p&gt;Want to see many books like this in the following year!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Join the Dart Side of Web Development</title>
+      <link>/2014/04/join-the-dart-side-of-web-development/</link>
+      <pubDate>Sun, 06 Apr 2014 21:47:44 +0000</pubDate>
+      
+      <guid>/2014/04/join-the-dart-side-of-web-development/</guid>
+      <description>&lt;p&gt;My &lt;a href=&#34;https://www.dartlang.org/&#34;&gt;Dart&lt;/a&gt; talk at Codemotion Rome 2015,
+Enjoy the &lt;a href=&#34;https://www.youtube.com/watch?v=qXVUr9byvko&#34;&gt;video&lt;/a&gt; :)&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/qXVUr9byvko&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;And the slides&amp;hellip;&lt;/p&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;19e2fe403c3d4141b8f78cdb13f8225f&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Windows Phone Laquysoft App</title>
+      <link>/2013/12/windows-phone-laquysoft-app/</link>
+      <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/2013/12/windows-phone-laquysoft-app/</guid>
+      <description>&lt;p&gt;**And Now **&amp;#8230;Laquysoft App for Windows Phone is out!&lt;br /&gt;
+Now you can follow our blog from your Windows Phone stay tuned for more!
+&lt;figure&gt;
+  &lt;a href=&#34;http://windowsphone.com/s?appId=8fdc5f07-d6bb-4798-bd0e-f5ba0ed0a1aa&#34;&gt;&lt;img src=&#34;/images/462x120_WP_Store_blk.png&#34;&gt;&lt;/a&gt;
+&lt;/figure&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Windows 8 Laquysoft App</title>
+      <link>/2013/12/windows-8-laquysoft-app/</link>
+      <pubDate>Sat, 14 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/2013/12/windows-8-laquysoft-app/</guid>
+      <description>&lt;p&gt;Laquysoft App for Windows 8 is out!&lt;br /&gt;
+Now you can follow our blog in a new richer experience, more will follow, stay tuned!
+&lt;figure&gt;
+  &lt;a href=&#34;http://apps.microsoft.com/windows/app/laquysoft/c7022fc4-391b-473d-b70f-fb6c404b5093&#34;&gt;&lt;img src=&#34;/images/WindowsStore_badge_en_English_Black_large_120x462.png&#34;&gt;&lt;/a&gt;
+&lt;/figure&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Connectivity: Quick-Union in Go</title>
+      <link>/2013/09/dynamic-connectivity-quick-union-in-go/</link>
+      <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/2013/09/dynamic-connectivity-quick-union-in-go/</guid>
+      <description>&lt;figure&gt;
+  &lt;a href=&#34;/images/gopher_tree.jpg&#34;&gt;&lt;img src=&#34;/images/gopher_tree.jpg&#34;&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Understood &lt;a href=&#34;http://www.laquysoft.com/?p=92&#34; title=&#34;Dynamic Connectivity: Quick-Find&#34; target=&#34;_blank&#34;&gt;Quick-Find&lt;/a&gt; algorithm is too slow if we have many union operations. We have to design a new algorithm to do better, let&amp;#8217;s use a &lt;em&gt;lazy approach&lt;/em&gt; where we try to avoid doing work until we have to:&lt;br /&gt;
+we could think the array as a set of trees where each entry contains a reference to its parent in the tree. Each element of the array has associated with it a root and we can say that two elements are connected if they have the same root.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;connected&lt;/em&gt; function simply checks whether given two index (p, q) their root are equal and returns.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;union&lt;/em&gt; function here is simpler then &lt;a href=&#34;http://www.laquysoft.com/?p=92&#34; title=&#34;Dynamic Connectivity: Quick-Find&#34; target=&#34;_blank&#34;&gt;Quick-Find&lt;/a&gt; one, given two index &lt;em&gt;(p, q)&lt;/em&gt; it retrieves their roots &lt;em&gt;(i, j)&lt;/em&gt; and set &lt;em&gt;i&lt;/em&gt; to &lt;em&gt;j&lt;/em&gt; (the root of &lt;em&gt;q&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;root&lt;/em&gt; function given an element &lt;em&gt;i&lt;/em&gt; look for the its parent until &lt;em&gt;i&lt;/em&gt; is equal to &lt;em&gt;id[i]&lt;/em&gt;, when we reach the root element.&lt;/p&gt;
+
+
+
+package dyncon
+
+type QuickUnionUF struct {
+   Elements []int
+}
+
+func initQuickUnionUF(size int) *QuickUnionUF {
+   quUF := QuickUnionUF{Elements: make([]int, size)}
+   for i := range quUF.Elements {
+      quUF.Elements[i] = i
+   }
+   return &amp;quUF
+}
+
+func (quUF QuickUnionUF) root(i int) int {
+   for i != quUF.Elements[i] {
+       i = quUF.Elements[i]
+   }
+   return i
+}
+
+func (quUF QuickUnionUF) connected(p, q int) bool {
+   return quUF.root(p) == quUF.root(q)
+}
+
+func (quUF *QuickUnionUF) union(p, q int) {
+   i := quUF.root(p)
+   j := quUF.root(q)
+   quUF.Elements[i] = j
+
+}
+
+
+&lt;p&gt;By evaluating this algorithm by the number of times it access the array we can assume the following measurements:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Algorithm&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;initQuickUnionUF&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;connected&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;union&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Quick-Union&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;N&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;tree-height&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;tree-height&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;=====&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Union algorithm some times could be faster than &lt;a href=&#34;/dynamic-connectivity-quick-find/&#34; title=&#34;Dynamic Connectivity: Quick-Find&#34; target=&#34;_blank&#34;&gt;Quick-Find&lt;/a&gt; but it&amp;#8217;s too slow with tall trees!&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Connectivity: Quick-Find</title>
+      <link>/2013/09/dynamic-connectivity-quick-find/</link>
+      <pubDate>Sat, 21 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/2013/09/dynamic-connectivity-quick-find/</guid>
+      <description>&lt;figure&gt;
+  &lt;a href=&#34;/images/DynamicConnectivity.jpg&#34;&gt;&lt;img src=&#34;/images/DynamicConnectivity.jpg&#34;&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Let&amp;#8217;s assume our object can be identified by an integer number, we can use an integer Array as data structure for our solution (&lt;em&gt;id[]&lt;/em&gt;) . In Quick-Find we consider two sites &lt;em&gt;p&lt;/em&gt; and &lt;em&gt;q&lt;/em&gt; are in the same component if &lt;em&gt;id[p]&lt;/em&gt; is equal do &lt;em&gt;id[q]&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;initQuickFindUF&lt;/em&gt; function allocates the zeroed array and assign the slice that refers to that array to &lt;em&gt;Elements&lt;/em&gt;; then go through it and set the value corresponding to each index ( *Elements[i] = i *).&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;connected&lt;/em&gt; function simply checks whether given two index &lt;em&gt;(p, q)&lt;/em&gt; their entries are equal and returns.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;union&lt;/em&gt; function is a little more complicated: given two index  *(p, q)* it retrieves their entries in the array, then loop through the whole array looking for entries equal to the &lt;em&gt;p&lt;/em&gt; entry and set those to q entry.&lt;/p&gt;
+
+&lt;div class=&#34;divider&#34;&gt;
+&lt;/div&gt;
+
+
+package dyncon
+
+type QuickFindUF struct {
+   Elements []int
+}
+
+func initQuickFindUF(size int) *QuickFindUF {
+   qfUF := QuickFindUF{Elements: make([]int, size)}
+   for i := range qfUF.Elements {
+      qfUF.Elements[i] = i
+   }
+   return &amp;qfUF
+}
+
+func (qfUF QuickFindUF) connected(p, q int) bool {
+   return qfUF.Elements[p] == qfUF.Elements[q]
+}
+
+func (qfUF *QuickFindUF) union(p, q int) {
+   pid := qfUF.Elements[p]
+   qid := qfUF.Elements[q]
+   for i := range qfUF.Elements {
+      if qfUF.Elements[i] == pid {
+         qfUF.Elements[i] = qid
+      }
+   }
+}
+
+
+&lt;p&gt;By evaluating this algorithm by the number of times it access the array we can assume the following measurements:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Algorithm&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;initQuickFindUF&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;connected&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;union&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Quick-Find&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;N&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;N&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;=====&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The &lt;em&gt;union&lt;/em&gt; function costs N accesses to the array; if we have N union operations this algorithm will take quadratic time complexity.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So the Quick-find algorithm is too slow for big N.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s Start</title>
+      <link>/2013/09/lets-start/</link>
+      <pubDate>Sat, 21 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/2013/09/lets-start/</guid>
+      <description>&lt;p&gt;&lt;figure&gt;
+  &lt;a href=&#34;/images/frodo_sam.jpg&#34;&gt;&lt;img src=&#34;/images/frodo_sam.jpg&#34;&gt;&lt;/a&gt;
+&lt;/figure&gt;
+Let’s start this new adventure in blogger-land with a series of post about &lt;a href=&#34;http://en.wikipedia.org/wiki/Algorithm&#34;&gt;Algorithms&lt;/a&gt; and Go.
+I choose this two characters because of two targets, to learn a new language ( &lt;a href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt; ) and renew my neurons about the classic algorithms studied in the past; I want to mix an old ingredient with a new one. I’m sure this road could take me to perceive new approaches to common problems, and i’m sure this trip is going to be funny.
+So…Let’s start!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
