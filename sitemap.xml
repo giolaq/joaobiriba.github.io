@@ -37,13 +37,13 @@
   </url>
   
   <url>
-    <loc>/categories/algorithm/</loc>
+    <loc>/tags/algorithm/</loc>
     <lastmod>2013-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/algorithm/</loc>
+    <loc>/categories/algorithm/</loc>
     <lastmod>2013-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -66,14 +66,14 @@
   </url>
   
   <url>
-    <loc>/categories/dart/</loc>
-    <lastmod>2014-12-17T21:47:44+00:00</lastmod>
+    <loc>/tags/dart/</loc>
+    <lastmod>2014-04-06T21:47:44+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/dart/</loc>
-    <lastmod>2014-04-06T21:47:44+00:00</lastmod>
+    <loc>/categories/dart/</loc>
+    <lastmod>2014-12-17T21:47:44+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -84,13 +84,13 @@
   </url>
   
   <url>
-    <loc>/categories/go/</loc>
+    <loc>/tags/go/</loc>
     <lastmod>2013-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/go/</loc>
+    <loc>/categories/go/</loc>
     <lastmod>2013-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
