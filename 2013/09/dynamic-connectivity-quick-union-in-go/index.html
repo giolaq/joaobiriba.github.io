@@ -75,7 +75,10 @@ we could think the array as a set of trees where each entry contains a reference
 
   <body>
     <div id="blog">
-      <header id="header" data-behavior="4">
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<header id="header" data-behavior="4">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
     <a class="header-title-link" href="/">Laquysoft</a>
@@ -247,17 +250,17 @@ we could think the array as a set of trees where each entry contains a reference
   <a href="/images/gopher_tree.jpg"><img src="/images/gopher_tree.jpg"></a>
 </figure>
 
-<p>Understood <a href="http://www.laquysoft.com/?p=92" title="Dynamic Connectivity: Quick-Find" target="_blank">Quick-Find</a> algorithm is too slow if we have many union operations. We have to design a new algorithm to do better, let&#8217;s use a <em>lazy approach</em> where we try to avoid doing work until we have to:<br />
+<p>Understood <a href="http://www.laquysoft.com//2013/09/dynamic-connectivity-quick-find/" title="Dynamic Connectivity: Quick-Find" target="_blank">Quick-Find</a> algorithm is too slow if we have many union operations. We have to design a new algorithm to do better, let&#8217;s use a <em>lazy approach</em> where we try to avoid doing work until we have to:<br />
 we could think the array as a set of trees where each entry contains a reference to its parent in the tree. Each element of the array has associated with it a root and we can say that two elements are connected if they have the same root.</p>
 
 <p>The <em>connected</em> function simply checks whether given two index (p, q) their root are equal and returns.</p>
 
-<p>The <em>union</em> function here is simpler then <a href="http://www.laquysoft.com/?p=92" title="Dynamic Connectivity: Quick-Find" target="_blank">Quick-Find</a> one, given two index <em>(p, q)</em> it retrieves their roots <em>(i, j)</em> and set <em>i</em> to <em>j</em> (the root of <em>q</em>)</p>
+<p>The <em>union</em> function here is simpler then <a href="http://www.laquysoft.com/2013/09/dynamic-connectivity-quick-find/" title="Dynamic Connectivity: Quick-Find" target="_blank">Quick-Find</a> one, given two index <em>(p, q)</em> it retrieves their roots <em>(i, j)</em> and set <em>i</em> to <em>j</em> (the root of <em>q</em>)</p>
 
 <p>The <em>root</em> function given an element <em>i</em> look for the its parent until <em>i</em> is equal to <em>id[i]</em>, when we reach the root element.</p>
 
-
-
+<pre>
+<code class="go">
 package dyncon
 
 type QuickUnionUF struct {
@@ -289,7 +292,8 @@ func (quUF *QuickUnionUF) union(p, q int) {
    quUF.Elements[i] = j
 
 }
-
+</code>
+</pre>
 
 <p>By evaluating this algorithm by the number of times it access the array we can assume the following measurements:</p>
 
@@ -310,18 +314,11 @@ func (quUF *QuickUnionUF) union(p, q int) {
 <td align="right">tree-height</td>
 <td align="right">tree-height</td>
 </tr>
-
-<tr>
-<td align="left">=====</td>
-<td align="center"></td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
 </tbody>
 </table>
 
 <blockquote>
-<p>Union algorithm some times could be faster than <a href="/dynamic-connectivity-quick-find/" title="Dynamic Connectivity: Quick-Find" target="_blank">Quick-Find</a> but it&#8217;s too slow with tall trees!</p>
+<p>Union algorithm some times could be faster than <a href="/2013/09/dynamic-connectivity-quick-find/" title="Dynamic Connectivity: Quick-Find" target="_blank">Quick-Find</a> but it&#8217;s too slow with tall trees!</p>
 </blockquote>
 
               

@@ -75,7 +75,10 @@ The initQuickFindUF function allocates the zeroed array and assign the slice tha
 
   <body>
     <div id="blog">
-      <header id="header" data-behavior="4">
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<header id="header" data-behavior="4">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
     <a class="header-title-link" href="/">Laquysoft</a>
@@ -255,28 +258,24 @@ The initQuickFindUF function allocates the zeroed array and assign the slice tha
 
 <p>The <em>union</em> function is a little more complicated: given two index  *(p, q)* it retrieves their entries in the array, then loop through the whole array looking for entries equal to the <em>p</em> entry and set those to q entry.</p>
 
-<div class="divider">
+<p><div class="divider">
 </div>
-
-
+<pre>
+<code class="go">
 package dyncon
-
 type QuickFindUF struct {
    Elements []int
 }
-
 func initQuickFindUF(size int) *QuickFindUF {
    qfUF := QuickFindUF{Elements: make([]int, size)}
    for i := range qfUF.Elements {
       qfUF.Elements[i] = i
    }
-   return &qfUF
+   return &amp;qfUF
 }
-
 func (qfUF QuickFindUF) connected(p, q int) bool {
    return qfUF.Elements[p] == qfUF.Elements[q]
 }
-
 func (qfUF *QuickFindUF) union(p, q int) {
    pid := qfUF.Elements[p]
    qid := qfUF.Elements[q]
@@ -286,7 +285,8 @@ func (qfUF *QuickFindUF) union(p, q int) {
       }
    }
 }
-
+</code>
+</pre></p>
 
 <p>By evaluating this algorithm by the number of times it access the array we can assume the following measurements:</p>
 
@@ -309,7 +309,7 @@ func (qfUF *QuickFindUF) union(p, q int) {
 </tr>
 
 <tr>
-<td align="left">=====</td>
+<td align="left"></td>
 <td align="center"></td>
 <td align="right"></td>
 <td align="right"></td>

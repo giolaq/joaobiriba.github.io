@@ -98,17 +98,17 @@ Now you can follow our blog in a new richer experience, more will follow, stay t
   &lt;a href=&#34;/images/gopher_tree.jpg&#34;&gt;&lt;img src=&#34;/images/gopher_tree.jpg&#34;&gt;&lt;/a&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Understood &lt;a href=&#34;http://www.laquysoft.com/?p=92&#34; title=&#34;Dynamic Connectivity: Quick-Find&#34; target=&#34;_blank&#34;&gt;Quick-Find&lt;/a&gt; algorithm is too slow if we have many union operations. We have to design a new algorithm to do better, let&amp;#8217;s use a &lt;em&gt;lazy approach&lt;/em&gt; where we try to avoid doing work until we have to:&lt;br /&gt;
+&lt;p&gt;Understood &lt;a href=&#34;http://www.laquysoft.com//2013/09/dynamic-connectivity-quick-find/&#34; title=&#34;Dynamic Connectivity: Quick-Find&#34; target=&#34;_blank&#34;&gt;Quick-Find&lt;/a&gt; algorithm is too slow if we have many union operations. We have to design a new algorithm to do better, let&amp;#8217;s use a &lt;em&gt;lazy approach&lt;/em&gt; where we try to avoid doing work until we have to:&lt;br /&gt;
 we could think the array as a set of trees where each entry contains a reference to its parent in the tree. Each element of the array has associated with it a root and we can say that two elements are connected if they have the same root.&lt;/p&gt;
 
 &lt;p&gt;The &lt;em&gt;connected&lt;/em&gt; function simply checks whether given two index (p, q) their root are equal and returns.&lt;/p&gt;
 
-&lt;p&gt;The &lt;em&gt;union&lt;/em&gt; function here is simpler then &lt;a href=&#34;http://www.laquysoft.com/?p=92&#34; title=&#34;Dynamic Connectivity: Quick-Find&#34; target=&#34;_blank&#34;&gt;Quick-Find&lt;/a&gt; one, given two index &lt;em&gt;(p, q)&lt;/em&gt; it retrieves their roots &lt;em&gt;(i, j)&lt;/em&gt; and set &lt;em&gt;i&lt;/em&gt; to &lt;em&gt;j&lt;/em&gt; (the root of &lt;em&gt;q&lt;/em&gt;)&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;union&lt;/em&gt; function here is simpler then &lt;a href=&#34;http://www.laquysoft.com/2013/09/dynamic-connectivity-quick-find/&#34; title=&#34;Dynamic Connectivity: Quick-Find&#34; target=&#34;_blank&#34;&gt;Quick-Find&lt;/a&gt; one, given two index &lt;em&gt;(p, q)&lt;/em&gt; it retrieves their roots &lt;em&gt;(i, j)&lt;/em&gt; and set &lt;em&gt;i&lt;/em&gt; to &lt;em&gt;j&lt;/em&gt; (the root of &lt;em&gt;q&lt;/em&gt;)&lt;/p&gt;
 
 &lt;p&gt;The &lt;em&gt;root&lt;/em&gt; function given an element &lt;em&gt;i&lt;/em&gt; look for the its parent until &lt;em&gt;i&lt;/em&gt; is equal to &lt;em&gt;id[i]&lt;/em&gt;, when we reach the root element.&lt;/p&gt;
 
-
-
+&lt;pre&gt;
+&lt;code class=&#34;go&#34;&gt;
 package dyncon
 
 type QuickUnionUF struct {
@@ -140,7 +140,8 @@ func (quUF *QuickUnionUF) union(p, q int) {
    quUF.Elements[i] = j
 
 }
-
+&lt;/code&gt;
+&lt;/pre&gt;
 
 &lt;p&gt;By evaluating this algorithm by the number of times it access the array we can assume the following measurements:&lt;/p&gt;
 
@@ -161,18 +162,11 @@ func (quUF *QuickUnionUF) union(p, q int) {
 &lt;td align=&#34;right&#34;&gt;tree-height&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;tree-height&lt;/td&gt;
 &lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;=====&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Union algorithm some times could be faster than &lt;a href=&#34;/dynamic-connectivity-quick-find/&#34; title=&#34;Dynamic Connectivity: Quick-Find&#34; target=&#34;_blank&#34;&gt;Quick-Find&lt;/a&gt; but it&amp;#8217;s too slow with tall trees!&lt;/p&gt;
+&lt;p&gt;Union algorithm some times could be faster than &lt;a href=&#34;/2013/09/dynamic-connectivity-quick-find/&#34; title=&#34;Dynamic Connectivity: Quick-Find&#34; target=&#34;_blank&#34;&gt;Quick-Find&lt;/a&gt; but it&amp;#8217;s too slow with tall trees!&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
     </item>
@@ -195,28 +189,24 @@ func (quUF *QuickUnionUF) union(p, q int) {
 
 &lt;p&gt;The &lt;em&gt;union&lt;/em&gt; function is a little more complicated: given two index  *(p, q)* it retrieves their entries in the array, then loop through the whole array looking for entries equal to the &lt;em&gt;p&lt;/em&gt; entry and set those to q entry.&lt;/p&gt;
 
-&lt;div class=&#34;divider&#34;&gt;
+&lt;p&gt;&lt;div class=&#34;divider&#34;&gt;
 &lt;/div&gt;
-
-
+&lt;pre&gt;
+&lt;code class=&#34;go&#34;&gt;
 package dyncon
-
 type QuickFindUF struct {
    Elements []int
 }
-
 func initQuickFindUF(size int) *QuickFindUF {
    qfUF := QuickFindUF{Elements: make([]int, size)}
    for i := range qfUF.Elements {
       qfUF.Elements[i] = i
    }
-   return &amp;qfUF
+   return &amp;amp;qfUF
 }
-
 func (qfUF QuickFindUF) connected(p, q int) bool {
    return qfUF.Elements[p] == qfUF.Elements[q]
 }
-
 func (qfUF *QuickFindUF) union(p, q int) {
    pid := qfUF.Elements[p]
    qid := qfUF.Elements[q]
@@ -226,7 +216,8 @@ func (qfUF *QuickFindUF) union(p, q int) {
       }
    }
 }
-
+&lt;/code&gt;
+&lt;/pre&gt;&lt;/p&gt;
 
 &lt;p&gt;By evaluating this algorithm by the number of times it access the array we can assume the following measurements:&lt;/p&gt;
 
@@ -249,7 +240,7 @@ func (qfUF *QuickFindUF) union(p, q int) {
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;=====&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
