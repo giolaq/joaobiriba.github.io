@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go on Laquysoft</title>
-    <link>/categories/go/index.xml</link>
+    <link>http://www.laquysoft.com/categories/go/index.xml</link>
     <description>Recent content in Go on Laquysoft</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/go/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.laquysoft.com/categories/go/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Dynamic Connectivity: Quick-Union in Go</title>
-      <link>/2013/09/dynamic-connectivity-quick-union-in-go/</link>
+      <link>http://www.laquysoft.com/2013/09/dynamic-connectivity-quick-union-in-go/</link>
       <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>/2013/09/dynamic-connectivity-quick-union-in-go/</guid>
+      <guid>http://www.laquysoft.com/2013/09/dynamic-connectivity-quick-union-in-go/</guid>
       <description>&lt;figure&gt;
-  &lt;a href=&#34;/images/gopher_tree.jpg&#34;&gt;&lt;img src=&#34;/images/gopher_tree.jpg&#34;&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://www.laquysoft.com/images/gopher_tree.jpg&#34;&gt;&lt;img src=&#34;http://www.laquysoft.com/images/gopher_tree.jpg&#34;&gt;&lt;/a&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Understood &lt;a href=&#34;http://www.laquysoft.com//2013/09/dynamic-connectivity-quick-find/&#34; title=&#34;Dynamic Connectivity: Quick-Find&#34; target=&#34;_blank&#34;&gt;Quick-Find&lt;/a&gt; algorithm is too slow if we have many union operations. We have to design a new algorithm to do better, let&amp;#8217;s use a &lt;em&gt;lazy approach&lt;/em&gt; where we try to avoid doing work until we have to:&lt;br /&gt;
@@ -86,19 +86,19 @@ func (quUF *QuickUnionUF) union(p, q int) {
 &lt;/table&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Union algorithm some times could be faster than &lt;a href=&#34;/2013/09/dynamic-connectivity-quick-find/&#34; title=&#34;Dynamic Connectivity: Quick-Find&#34; target=&#34;_blank&#34;&gt;Quick-Find&lt;/a&gt; but it&amp;#8217;s too slow with tall trees!&lt;/p&gt;
+&lt;p&gt;Union algorithm some times could be faster than &lt;a href=&#34;http://www.laquysoft.com/2013/09/dynamic-connectivity-quick-find/&#34; title=&#34;Dynamic Connectivity: Quick-Find&#34; target=&#34;_blank&#34;&gt;Quick-Find&lt;/a&gt; but it&amp;#8217;s too slow with tall trees!&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
     </item>
     
     <item>
       <title>Dynamic Connectivity: Quick-Find</title>
-      <link>/2013/09/dynamic-connectivity-quick-find/</link>
+      <link>http://www.laquysoft.com/2013/09/dynamic-connectivity-quick-find/</link>
       <pubDate>Sat, 21 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>/2013/09/dynamic-connectivity-quick-find/</guid>
+      <guid>http://www.laquysoft.com/2013/09/dynamic-connectivity-quick-find/</guid>
       <description>&lt;figure&gt;
-  &lt;a href=&#34;/images/DynamicConnectivity.jpg&#34;&gt;&lt;img src=&#34;/images/DynamicConnectivity.jpg&#34;&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://www.laquysoft.com/images/DynamicConnectivity.jpg&#34;&gt;&lt;img src=&#34;http://www.laquysoft.com/images/DynamicConnectivity.jpg&#34;&gt;&lt;/a&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Let&amp;#8217;s assume our object can be identified by an integer number, we can use an integer Array as data structure for our solution (&lt;em&gt;id[]&lt;/em&gt;) . In Quick-Find we consider two sites &lt;em&gt;p&lt;/em&gt; and &lt;em&gt;q&lt;/em&gt; are in the same component if &lt;em&gt;id[p]&lt;/em&gt; is equal do &lt;em&gt;id[q]&lt;/em&gt;.&lt;/p&gt;
@@ -178,12 +178,12 @@ func (qfUF *QuickFindUF) union(p, q int) {
     
     <item>
       <title>Let&#39;s Start</title>
-      <link>/2013/09/lets-start/</link>
+      <link>http://www.laquysoft.com/2013/09/lets-start/</link>
       <pubDate>Sat, 21 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>/2013/09/lets-start/</guid>
+      <guid>http://www.laquysoft.com/2013/09/lets-start/</guid>
       <description>&lt;p&gt;&lt;figure&gt;
-  &lt;a href=&#34;/images/frodo_sam.jpg&#34;&gt;&lt;img src=&#34;/images/frodo_sam.jpg&#34;&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://www.laquysoft.com/images/frodo_sam.jpg&#34;&gt;&lt;img src=&#34;http://www.laquysoft.com/images/frodo_sam.jpg&#34;&gt;&lt;/a&gt;
 &lt;/figure&gt;
 Let’s start this new adventure in blogger-land with a series of post about &lt;a href=&#34;http://en.wikipedia.org/wiki/Algorithm&#34;&gt;Algorithms&lt;/a&gt; and Go.
 I choose this two characters because of two targets, to learn a new language ( &lt;a href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt; ) and renew my neurons about the classic algorithms studied in the past; I want to mix an old ingredient with a new one. I’m sure this road could take me to perceive new approaches to common problems, and i’m sure this trip is going to be funny.

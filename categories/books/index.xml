@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Books on Laquysoft</title>
-    <link>/categories/books/index.xml</link>
+    <link>http://www.laquysoft.com/categories/books/index.xml</link>
     <description>Recent content in Books on Laquysoft</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/books/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.laquysoft.com/categories/books/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Mastering Dart Book Review</title>
-      <link>/2014/12/mastering-dart-book-review/</link>
+      <link>http://www.laquysoft.com/2014/12/mastering-dart-book-review/</link>
       <pubDate>Wed, 17 Dec 2014 21:47:44 +0000</pubDate>
       
-      <guid>/2014/12/mastering-dart-book-review/</guid>
+      <guid>http://www.laquysoft.com/2014/12/mastering-dart-book-review/</guid>
       <description>&lt;figure&gt;
   &lt;a href=&#34;https://www.packtpub.com/web-development/mastering-dart&#34;&gt;&lt;img src=&#34;https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/9560OS_Mastering%20DART_Cover.jpg&#34;&gt;&lt;/a&gt;
 &lt;/figure&gt;

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Win8 on Laquysoft</title>
-    <link>/categories/win8/index.xml</link>
+    <link>http://www.laquysoft.com/categories/win8/index.xml</link>
     <description>Recent content in Win8 on Laquysoft</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/win8/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.laquysoft.com/categories/win8/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Windows 8 Laquysoft App</title>
-      <link>/2013/12/windows-8-laquysoft-app/</link>
+      <link>http://www.laquysoft.com/2013/12/windows-8-laquysoft-app/</link>
       <pubDate>Sat, 14 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>/2013/12/windows-8-laquysoft-app/</guid>
+      <guid>http://www.laquysoft.com/2013/12/windows-8-laquysoft-app/</guid>
       <description>&lt;p&gt;Laquysoft App for Windows 8 is out!&lt;br /&gt;
 Now you can follow our blog in a new richer experience, more will follow, stay tuned!
 &lt;figure&gt;
-  &lt;a href=&#34;http://apps.microsoft.com/windows/app/laquysoft/c7022fc4-391b-473d-b70f-fb6c404b5093&#34;&gt;&lt;img src=&#34;/images/WindowsStore_badge_en_English_Black_large_120x462.png&#34;&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://apps.microsoft.com/windows/app/laquysoft/c7022fc4-391b-473d-b70f-fb6c404b5093&#34;&gt;&lt;img src=&#34;http://www.laquysoft.com/images/WindowsStore_badge_en_English_Black_large_120x462.png&#34;&gt;&lt;/a&gt;
 &lt;/figure&gt;&lt;/p&gt;
 </description>
     </item>
