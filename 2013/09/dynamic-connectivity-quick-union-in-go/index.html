@@ -28,6 +28,22 @@
     <link rel="icon" href="http://www.laquysoft.com/favicon.png">
     
 
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  }
+})});
+</script>
+
     
     <meta name="description" content="Understood Quick-Find algorithm is too slow if we have many union operations. We have to design a new algorithm to do better, let&#8217;s use a lazy approach where we try to avoid doing work until we have to:
 we could think the array as a set of trees where each entry contains a reference to its parent in the tree. Each element of the array has associated with it a root and we can say that two elements are connected if they have the same root.">

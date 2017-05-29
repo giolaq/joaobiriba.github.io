@@ -28,6 +28,22 @@
     <link rel="icon" href="http://www.laquysoft.com/favicon.png">
     
 
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  }
+})});
+</script>
+
     
     <meta name="description" content="Let&#8217;s assume our object can be identified by an integer number, we can use an integer Array as data structure for our solution (id[]) . In Quick-Find we consider two sites p and q are in the same component if id[p] is equal do id[q].
 The initQuickFindUF function allocates the zeroed array and assign the slice that refers to that array to Elements; then go through it and set the value corresponding to each index ( *Elements[i] = i *).">
