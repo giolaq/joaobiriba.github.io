@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dart on Laquysoft</title>
-    <link>/categories/dart/index.xml</link>
+    <link>/wwww.laquysoft.com/categories/dart/index.xml</link>
     <description>Recent content in Dart on Laquysoft</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/dart/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/wwww.laquysoft.com/categories/dart/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Mastering Dart Book Review</title>
-      <link>/2014/12/mastering-dart-book-review/</link>
+      <link>/wwww.laquysoft.com/2014/12/mastering-dart-book-review/</link>
       <pubDate>Wed, 17 Dec 2014 21:47:44 +0000</pubDate>
       
-      <guid>/2014/12/mastering-dart-book-review/</guid>
+      <guid>/wwww.laquysoft.com/2014/12/mastering-dart-book-review/</guid>
       <description>&lt;figure&gt;
   &lt;a href=&#34;https://www.packtpub.com/web-development/mastering-dart&#34;&gt;&lt;img src=&#34;https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/9560OS_Mastering%20DART_Cover.jpg&#34;&gt;&lt;/a&gt;
 &lt;/figure&gt;
@@ -44,10 +44,10 @@ by the author and maybe the reviewers.&lt;/p&gt;
     
     <item>
       <title>Join the Dart Side of Web Development</title>
-      <link>/2014/04/join-the-dart-side-of-web-development/</link>
+      <link>/wwww.laquysoft.com/2014/04/join-the-dart-side-of-web-development/</link>
       <pubDate>Sun, 06 Apr 2014 21:47:44 +0000</pubDate>
       
-      <guid>/2014/04/join-the-dart-side-of-web-development/</guid>
+      <guid>/wwww.laquysoft.com/2014/04/join-the-dart-side-of-web-development/</guid>
       <description>&lt;p&gt;My &lt;a href=&#34;https://www.dartlang.org/&#34;&gt;Dart&lt;/a&gt; talk at Codemotion Rome 2015,
 Enjoy the &lt;a href=&#34;https://www.youtube.com/watch?v=qXVUr9byvko&#34;&gt;video&lt;/a&gt; :)&lt;/p&gt;
 
