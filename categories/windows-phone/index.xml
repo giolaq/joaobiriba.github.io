@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows Phone on Laquysoft</title>
-    <link>/wwww.laquysoft.com/categories/windows-phone/index.xml</link>
+    <link>/categories/windows-phone/index.xml</link>
     <description>Recent content in Windows Phone on Laquysoft</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/wwww.laquysoft.com/categories/windows-phone/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/windows-phone/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Windows Phone Laquysoft App</title>
-      <link>/wwww.laquysoft.com/2013/12/windows-phone-laquysoft-app/</link>
+      <link>/2013/12/windows-phone-laquysoft-app/</link>
       <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>/wwww.laquysoft.com/2013/12/windows-phone-laquysoft-app/</guid>
+      <guid>/2013/12/windows-phone-laquysoft-app/</guid>
       <description>&lt;p&gt;**And Now **&amp;#8230;Laquysoft App for Windows Phone is out!&lt;br /&gt;
 Now you can follow our blog from your Windows Phone stay tuned for more!
 &lt;figure&gt;
-  &lt;a href=&#34;http://windowsphone.com/s?appId=8fdc5f07-d6bb-4798-bd0e-f5ba0ed0a1aa&#34;&gt;&lt;img src=&#34;wwww.laquysoft.com/images/462x120_WP_Store_blk.png&#34;&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://windowsphone.com/s?appId=8fdc5f07-d6bb-4798-bd0e-f5ba0ed0a1aa&#34;&gt;&lt;img src=&#34;/images/462x120_WP_Store_blk.png&#34;&gt;&lt;/a&gt;
 &lt;/figure&gt;&lt;/p&gt;
 </description>
     </item>
