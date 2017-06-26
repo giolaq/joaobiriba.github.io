@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Laquysoft</title>
+    <link>http://www.laquysoft.com/categories/</link>
+    <description>Recent content in Categories on Laquysoft</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Sep 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.laquysoft.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Algorithm</title>
+      <link>http://www.laquysoft.com/categories/algorithm/</link>
+      <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.laquysoft.com/categories/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>http://www.laquysoft.com/categories/books/</link>
+      <pubDate>Wed, 17 Dec 2014 21:47:44 +0000</pubDate>
+      
+      <guid>http://www.laquysoft.com/categories/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Codemotion</title>
+      <link>http://www.laquysoft.com/categories/codemotion/</link>
+      <pubDate>Sun, 06 Apr 2014 21:47:44 +0000</pubDate>
+      
+      <guid>http://www.laquysoft.com/categories/codemotion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dart</title>
+      <link>http://www.laquysoft.com/categories/dart/</link>
+      <pubDate>Wed, 17 Dec 2014 21:47:44 +0000</pubDate>
+      
+      <guid>http://www.laquysoft.com/categories/dart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>http://www.laquysoft.com/categories/development/</link>
+      <pubDate>Wed, 17 Dec 2014 21:47:44 +0000</pubDate>
+      
+      <guid>http://www.laquysoft.com/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>http://www.laquysoft.com/categories/go/</link>
+      <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.laquysoft.com/categories/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>http://www.laquysoft.com/categories/talks/</link>
+      <pubDate>Sun, 06 Apr 2014 21:47:44 +0000</pubDate>
+      
+      <guid>http://www.laquysoft.com/categories/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Win8</title>
+      <link>http://www.laquysoft.com/categories/win8/</link>
+      <pubDate>Sat, 14 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.laquysoft.com/categories/win8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows Phone</title>
+      <link>http://www.laquysoft.com/categories/windows-phone/</link>
+      <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.laquysoft.com/categories/windows-phone/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

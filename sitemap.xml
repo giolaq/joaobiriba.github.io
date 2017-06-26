@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://www.laquysoft.com/2014/12/mastering-dart-book-review/</loc>
@@ -37,14 +38,23 @@
   </url>
   
   <url>
+    <loc>http://www.laquysoft.com/instantarticles/dummy/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.laquysoft.com/tags/algorithm/</loc>
+    <lastmod>2013-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.laquysoft.com/categories/algorithm/</loc>
     <lastmod>2013-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.laquysoft.com/tags/algorithm/</loc>
-    <lastmod>2013-09-30T00:00:00+00:00</lastmod>
+    <loc>http://www.laquysoft.com/archives/</loc>
     <priority>0</priority>
   </url>
   
@@ -56,11 +66,18 @@
   
   <url>
     <loc>http://www.laquysoft.com/categories/</loc>
+    <lastmod>2013-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.laquysoft.com/categories/codemotion/</loc>
+    <lastmod>2014-04-06T21:47:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.laquysoft.com/tags/dart/</loc>
     <lastmod>2014-04-06T21:47:44+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -72,14 +89,14 @@
   </url>
   
   <url>
-    <loc>http://www.laquysoft.com/tags/dart/</loc>
-    <lastmod>2014-04-06T21:47:44+00:00</lastmod>
+    <loc>http://www.laquysoft.com/categories/development/</loc>
+    <lastmod>2014-12-17T21:47:44+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.laquysoft.com/categories/development/</loc>
-    <lastmod>2014-12-17T21:47:44+00:00</lastmod>
+    <loc>http://www.laquysoft.com/tags/go/</loc>
+    <lastmod>2013-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -90,8 +107,7 @@
   </url>
   
   <url>
-    <loc>http://www.laquysoft.com/tags/go/</loc>
-    <lastmod>2013-09-30T00:00:00+00:00</lastmod>
+    <loc>http://www.laquysoft.com/instantarticles/</loc>
     <priority>0</priority>
   </url>
   
@@ -109,6 +125,7 @@
   
   <url>
     <loc>http://www.laquysoft.com/tags/</loc>
+    <lastmod>2013-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
