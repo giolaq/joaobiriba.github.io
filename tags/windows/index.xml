@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Strata</title>
+    <link>http://replace-this-with-your-hugo-site.com/tags/windows/</link>
+    <description>Recent content in Windows on Strata</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Dec 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Windows Phone Laquysoft App</title>
+      <link>http://replace-this-with-your-hugo-site.com/2013/12/16/windows-phone-laquysoft-app/</link>
+      <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/2013/12/16/windows-phone-laquysoft-app/</guid>
+      <description>&lt;p&gt;**And Now **&amp;#8230;Laquysoft App for Windows Phone is out!&lt;br /&gt;
+Now you can follow our blog from your Windows Phone stay tuned for more!
+&lt;figure&gt;
+  &lt;a href=&#34;http://windowsphone.com/s?appId=8fdc5f07-d6bb-4798-bd0e-f5ba0ed0a1aa&#34;&gt;&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/462x120_WP_Store_blk.png&#34;&gt;&lt;/a&gt;
+&lt;/figure&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Windows 8 Laquysoft App</title>
+      <link>http://replace-this-with-your-hugo-site.com/2013/12/14/windows-8-laquysoft-app/</link>
+      <pubDate>Sat, 14 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/2013/12/14/windows-8-laquysoft-app/</guid>
+      <description>&lt;p&gt;Laquysoft App for Windows 8 is out!&lt;br /&gt;
+Now you can follow our blog in a new richer experience, more will follow, stay tuned!
+&lt;figure&gt;
+  &lt;a href=&#34;http://apps.microsoft.com/windows/app/laquysoft/c7022fc4-391b-473d-b70f-fb6c404b5093&#34;&gt;&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/WindowsStore_badge_en_English_Black_large_120x462.png&#34;&gt;&lt;/a&gt;
+&lt;/figure&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

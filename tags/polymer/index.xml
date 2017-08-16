@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Polymer on Strata</title>
+    <link>http://replace-this-with-your-hugo-site.com/tags/polymer/</link>
+    <description>Recent content in Polymer on Strata</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Apr 2014 21:47:44 +0000</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/tags/polymer/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Join the Dart Side of Web Development</title>
+      <link>http://replace-this-with-your-hugo-site.com/2014/04/06/join-the-dart-side-of-web-development-2-codemotion-rome/</link>
+      <pubDate>Sun, 06 Apr 2014 21:47:44 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/2014/04/06/join-the-dart-side-of-web-development-2-codemotion-rome/</guid>
+      <description>&lt;p&gt;My &lt;a href=&#34;https://www.dartlang.org/&#34;&gt;Dart&lt;/a&gt; talk at Codemotion Rome 2015,
+Enjoy the &lt;a href=&#34;https://www.youtube.com/watch?v=qXVUr9byvko&#34;&gt;video&lt;/a&gt; :)&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/qXVUr9byvko&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;And the slides&amp;hellip;&lt;/p&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;19e2fe403c3d4141b8f78cdb13f8225f&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,156 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.laquysoft.com/2014/12/mastering-dart-book-review/</loc>
+    <loc>http://replace-this-with-your-hugo-site.com/</loc>
+    <lastmod>2016-08-29T22:21:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/</loc>
+    <lastmod>2016-08-29T22:21:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/2014/12/17/mastering-dart-book-review/</loc>
     <lastmod>2014-12-17T21:47:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.laquysoft.com/2014/04/join-the-dart-side-of-web-development/</loc>
+    <loc>http://replace-this-with-your-hugo-site.com/2014/04/06/join-the-dart-side-of-web-development-2-codemotion-rome/</loc>
     <lastmod>2014-04-06T21:47:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.laquysoft.com/2013/12/windows-phone-laquysoft-app/</loc>
+    <loc>http://replace-this-with-your-hugo-site.com/2013/12/16/windows-phone-laquysoft-app/</loc>
     <lastmod>2013-12-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.laquysoft.com/2013/12/windows-8-laquysoft-app/</loc>
+    <loc>http://replace-this-with-your-hugo-site.com/2013/12/14/windows-8-laquysoft-app/</loc>
     <lastmod>2013-12-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.laquysoft.com/2013/09/dynamic-connectivity-quick-union-in-go/</loc>
+    <loc>http://replace-this-with-your-hugo-site.com/2013/09/30/dynamic-connectivity-quick-union/</loc>
     <lastmod>2013-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.laquysoft.com/2013/09/dynamic-connectivity-quick-find/</loc>
+    <loc>http://replace-this-with-your-hugo-site.com/2013/09/21/dynamic-connectivity-quick-find/</loc>
     <lastmod>2013-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.laquysoft.com/2013/09/lets-start/</loc>
+    <loc>http://replace-this-with-your-hugo-site.com/2013/09/21/lets-start/</loc>
     <lastmod>2013-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.laquysoft.com/instantarticles/dummy/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.laquysoft.com/tags/algorithm/</loc>
-    <lastmod>2013-09-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.laquysoft.com/categories/algorithm/</loc>
-    <lastmod>2013-09-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.laquysoft.com/archives/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.laquysoft.com/categories/books/</loc>
-    <lastmod>2014-12-17T21:47:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.laquysoft.com/categories/</loc>
-    <lastmod>2013-09-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.laquysoft.com/categories/codemotion/</loc>
-    <lastmod>2014-04-06T21:47:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.laquysoft.com/tags/dart/</loc>
-    <lastmod>2014-04-06T21:47:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.laquysoft.com/categories/dart/</loc>
-    <lastmod>2014-12-17T21:47:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.laquysoft.com/categories/development/</loc>
-    <lastmod>2014-12-17T21:47:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.laquysoft.com/tags/go/</loc>
-    <lastmod>2013-09-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.laquysoft.com/categories/go/</loc>
-    <lastmod>2013-09-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.laquysoft.com/instantarticles/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.laquysoft.com/</loc>
-    <lastmod>2014-12-17T21:47:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.laquysoft.com/post/</loc>
-    <lastmod>2014-12-17T21:47:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.laquysoft.com/tags/</loc>
-    <lastmod>2013-09-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.laquysoft.com/tags/talk/</loc>
-    <lastmod>2014-04-06T21:47:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.laquysoft.com/categories/talks/</loc>
-    <lastmod>2014-04-06T21:47:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.laquysoft.com/categories/win8/</loc>
-    <lastmod>2013-12-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.laquysoft.com/categories/windows-phone/</loc>
-    <lastmod>2013-12-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

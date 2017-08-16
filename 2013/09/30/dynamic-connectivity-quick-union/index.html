@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+
+<!-- 
+Strata by HTML5 UP
+html5up.net | @n33co
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Dynamic Connectivity: Quick-Union &middot; Strata</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="author" content="Your name">
+    	<meta name="description" content="Describe your website">
+    	<meta http-equiv="content-language" content="en-us" />
+
+		<meta name="generator" content="Hugo 0.16" />
+
+		<!--[if lte IE 8]><script src='{{ .Site.BaseURL }}js/ie/html5shiv.js'></script><![endif]-->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+		<link rel="stylesheet" href="http://replace-this-with-your-hugo-site.com/css/main.css" />
+		<!--[if lte IE 8]><link rel='stylesheet' href='{{ .Site.BaseURL }}/css/ie8.css' /><![endif]-->
+
+		
+	</head>
+
+	<body id="top">
+		<!-- Header -->
+<header id="header">
+	<a href="http://replace-this-with-your-hugo-site.com/" class="image avatar"><img src="http://replace-this-with-your-hugo-site.com/images/avatar.jpg" alt="" /></a>
+	
+		<h1><strong>I&rsquo;m Strata</strong>, a super simple<br> responsive site template freebie<br> crafted by <a href="//html5up.net">HTML5 UP</a>.</h1>
+	
+
+	
+		<nav id="sidebar">
+			<ul>
+			
+				<li><a href="http://replace-this-with-your-hugo-site.com/">Home</a></li>
+			
+				<li><a href="http://replace-this-with-your-hugo-site.com/post/">Blog</a></li>
+			
+				<li><a href="http://replace-this-with-your-hugo-site.com/talks/">Talks</a></li>
+			
+			</ul>
+		</nav>
+	
+</header>
+
+
+		<!-- Main -->
+		<div id="main">
+			
+	<span>
+		<h1>Dynamic Connectivity: Quick-Union</h1>
+
+		<i class="fa fa-calendar"></i>&nbsp;&nbsp;
+<time datetime="2013-09-30 00:00:00 &#43;0000 UTC">2013-09-30</time>&nbsp;&nbsp;
+
+
+
+
+   
+   
+       &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
+       
+       <a class="article-category-link" href="http://replace-this-with-your-hugo-site.com/tags/dynamic-connectivity">dynamic connectivity</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://replace-this-with-your-hugo-site.com/tags/go">go</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://replace-this-with-your-hugo-site.com/tags/go-lang">go lang</a>
+       &middot;
+       
+       <a class="article-category-link" href="http://replace-this-with-your-hugo-site.com/tags/quick-union">quick-union</a>
+       
+       
+   
+
+
+	</span>
+
+	<p>
+	    <figure>
+  <a href="/images/gopher_tree.jpg"><img src="/images/gopher_tree.jpg"></a>
+</figure>
+
+<p>Understood <a href="http://www.laquysoft.com/?p=92" title="Dynamic Connectivity: Quick-Find" target="_blank">Quick-Find</a> algorithm is too slow if we have many union operations. We have to design a new algorithm to do better, let&#8217;s use a <em>lazy approach</em> where we try to avoid doing work until we have to:<br />
+we could think the array as a set of trees where each entry contains a reference to its parent in the tree. Each element of the array has associated with it a root and we can say that two elements are connected if they have the same root.</p>
+
+<p>The <em>connected</em> function simply checks whether given two index (p, q) their root are equal and returns.</p>
+
+<p>The <em>union</em> function here is simpler then <a href="http://www.laquysoft.com/?p=92" title="Dynamic Connectivity: Quick-Find" target="_blank">Quick-Find</a> one, given two index <em>(p, q)</em> it retrieves their roots <em>(i, j)</em> and set <em>i</em> to <em>j</em> (the root of <em>q</em>)</p>
+
+<p>The <em>root</em> function given an element <em>i</em> look for the its parent until <em>i</em> is equal to <em>id[i]</em>, when we reach the root element.</p>
+
+
+
+package dyncon
+
+type QuickUnionUF struct {
+   Elements []int
+}
+
+func initQuickUnionUF(size int) *QuickUnionUF {
+   quUF := QuickUnionUF{Elements: make([]int, size)}
+   for i := range quUF.Elements {
+      quUF.Elements[i] = i
+   }
+   return &quUF
+}
+
+func (quUF QuickUnionUF) root(i int) int {
+   for i != quUF.Elements[i] {
+       i = quUF.Elements[i]
+   }
+   return i
+}
+
+func (quUF QuickUnionUF) connected(p, q int) bool {
+   return quUF.root(p) == quUF.root(q)
+}
+
+func (quUF *QuickUnionUF) union(p, q int) {
+   i := quUF.root(p)
+   j := quUF.root(q)
+   quUF.Elements[i] = j
+
+}
+
+
+<p>By evaluating this algorithm by the number of times it access the array we can assume the following measurements:</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">Algorithm</th>
+<th align="center">initQuickUnionUF</th>
+<th align="right">connected</th>
+<th align="right">union</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Quick-Union</td>
+<td align="center">N</td>
+<td align="right">tree-height</td>
+<td align="right">tree-height</td>
+</tr>
+
+<tr>
+<td align="left">=====</td>
+<td align="center"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+<p>Union algorithm some times could be faster than <a href="/dynamic-connectivity-quick-find/" title="Dynamic Connectivity: Quick-Find" target="_blank">Quick-Find</a> but it&#8217;s too slow with tall trees!</p>
+</blockquote>
+
+	</p>
+
+	<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'spf13';
+    var disqus_identifier = 'http:\/\/replace-this-with-your-hugo-site.com\/2013\/09\/30\/dynamic-connectivity-quick-union\/';
+    var disqus_title = 'Dynamic Connectivity: Quick-Union';
+    var disqus_url = 'http:\/\/replace-this-with-your-hugo-site.com\/2013\/09\/30\/dynamic-connectivity-quick-union\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+		</div>
+
+		<!-- Footer -->
+<footer id="footer">
+	<ul class="icons">
+		
+		
+		
+		<li><a href="//twitter.com/spf13" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+		
+		
+		<li><a href="//github.com/spf13" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+		
+		
+		
+		
+		
+		<li><a href="http://replace-this-with-your-hugo-site.com/#contact-form" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+		
+	</ul>
+
+	<ul class="copyright">
+		
+		<li>&copy; John Doe</li>
+		
+		<li>Design: <a href="//html5up.net">HTML5 UP</a></li>
+		
+		<li>Demo Images: <a href="//unsplash.com/">Unsplash</a></li>
+		
+	</ul>
+</footer>
+
+<!-- Scripts -->
+<script src="http://replace-this-with-your-hugo-site.com/js/jquery.min.js"></script>
+<script src="http://replace-this-with-your-hugo-site.com/js/jquery.poptrox.min.js"></script>
+<script src="http://replace-this-with-your-hugo-site.com/js/skel.min.js"></script>
+<script src="http://replace-this-with-your-hugo-site.com/js/util.js"></script>
+
+<script src="http://replace-this-with-your-hugo-site.com/js/main.js"></script>
+
+
+
+
+
+	</body>
+</html>
