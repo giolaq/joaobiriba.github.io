@@ -33,8 +33,25 @@
   
   
 
+
   <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  }
+})});
+</script>
 </head>
+
 
   <body class="is-loading">
 
@@ -44,7 +61,7 @@
         
           <section id="main">
             <header>
-              <span class="avatar"><img src="/images/avatars/jane.jpg" alt="avatar" height="130" width="130" ></span>
+              <span class="avatar"><img src="/images/avatars/avatar.jpg" alt="avatar" height="130" width="130" ></span>
               <h1 class="name">
                 
                   Giovanni Laquidara
@@ -103,12 +120,6 @@
         <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">CC-BY-SA-4.0</a>
       </li>
   </ul>
-  
-    <ul class="credit copyright">
-      
-        <li>Design by <a href="https://html5up.net">HTML5UP</a></li>
-      
-    </ul>
    
 
 </footer>
@@ -126,6 +137,13 @@
 
 
 
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-44226072-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
 
 
 
