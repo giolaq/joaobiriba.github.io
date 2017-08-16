@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Go Lang on Aerial</title>
+    <link>http://laquysoft.com/tags/go-lang/</link>
+    <description>Recent content in Go Lang on Aerial</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Untitled</copyright>
+    <lastBuildDate>Mon, 30 Sep 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://laquysoft.com/tags/go-lang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dynamic Connectivity: Quick-Union</title>
+      <link>http://laquysoft.com/2013/09/30/dynamic-connectivity-quick-union/</link>
+      <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/2013/09/30/dynamic-connectivity-quick-union/</guid>
+      <description>Understood Quick-Find algorithm is too slow if we have many union operations. We have to design a new algorithm to do better, let&amp;#8217;s use a lazy approach where we try to avoid doing work until we have to:
+we could think the array as a set of trees where each entry contains a reference to its parent in the tree. Each element of the array has associated with it a root and we can say that two elements are connected if they have the same root.</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Connectivity: Quick-Find</title>
+      <link>http://laquysoft.com/2013/09/21/dynamic-connectivity-quick-find/</link>
+      <pubDate>Sat, 21 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/2013/09/21/dynamic-connectivity-quick-find/</guid>
+      <description>Let&amp;#8217;s assume our object can be identified by an integer number, we can use an integer Array as data structure for our solution (id[]) . In Quick-Find we consider two sites p and q are in the same component if id[p] is equal do id[q].
+The initQuickFindUF function allocates the zeroed array and assign the slice that refers to that array to Elements; then go through it and set the value corresponding to each index ( *Elements[i] = i *).</description>
+    </item>
+    
+  </channel>
+</rss>

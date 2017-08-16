@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://laquysoft.com/work/</loc>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/</loc>
+    <lastmod>2016-08-29T22:21:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/2014/12/17/mastering-dart-book-review/</loc>
+    <lastmod>2014-12-17T21:47:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/2014/04/06/join-the-dart-side-of-web-development-2-codemotion-rome/</loc>
+    <lastmod>2014-04-06T21:47:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/2013/12/16/windows-phone-laquysoft-app/</loc>
+    <lastmod>2013-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/2013/12/14/windows-8-laquysoft-app/</loc>
+    <lastmod>2013-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/2013/09/30/dynamic-connectivity-quick-union/</loc>
+    <lastmod>2013-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/2013/09/21/dynamic-connectivity-quick-find/</loc>
+    <lastmod>2013-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/2013/09/21/lets-start/</loc>
+    <lastmod>2013-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/</loc>
+    <lastmod>2016-08-29T22:21:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/tags/algorithms/</loc>
+    <lastmod>2013-09-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/tags/book/</loc>
+    <lastmod>2014-12-17T21:47:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/tags/codemotion/</loc>
+    <lastmod>2014-04-06T21:47:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/tags/dart/</loc>
+    <lastmod>2014-12-17T21:47:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/tags/dart-force/</loc>
+    <lastmod>2014-04-06T21:47:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/tags/data-structures/</loc>
+    <lastmod>2013-09-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/tags/dynamic-connectivity/</loc>
+    <lastmod>2013-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/tags/go/</loc>
+    <lastmod>2013-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/tags/go-lang/</loc>
+    <lastmod>2013-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/tags/golang/</loc>
+    <lastmod>2013-09-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/tags/laquysoft/</loc>
+    <lastmod>2013-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/tags/polymer/</loc>
+    <lastmod>2014-04-06T21:47:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/post/</loc>
+    <lastmod>2014-12-17T21:47:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/tags/quick-find/</loc>
+    <lastmod>2013-09-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/tags/quick-union/</loc>
+    <lastmod>2013-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/tags/review/</loc>
+    <lastmod>2014-12-17T21:47:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/tags/stagexl/</loc>
+    <lastmod>2014-04-06T21:47:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/tags/start/</loc>
+    <lastmod>2013-09-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/tags/</loc>
+    <lastmod>2013-09-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/talks/</loc>
+    <lastmod>2014-04-06T21:47:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/tags/windows/</loc>
+    <lastmod>2013-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/tags/windows-8/</loc>
+    <lastmod>2013-12-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/tags/windows-phone/</loc>
+    <lastmod>2013-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

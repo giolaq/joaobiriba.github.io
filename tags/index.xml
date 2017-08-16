@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Aerial</title>
+    <link>http://laquysoft.com/tags/</link>
+    <description>Recent content in Tags on Aerial</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Untitled</copyright>
+    <lastBuildDate>Sat, 21 Sep 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://laquysoft.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Algorithms</title>
+      <link>http://laquysoft.com/tags/algorithms/</link>
+      <pubDate>Sat, 21 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/tags/algorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Book</title>
+      <link>http://laquysoft.com/tags/book/</link>
+      <pubDate>Wed, 17 Dec 2014 21:47:44 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Codemotion</title>
+      <link>http://laquysoft.com/tags/codemotion/</link>
+      <pubDate>Sun, 06 Apr 2014 21:47:44 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/tags/codemotion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dart</title>
+      <link>http://laquysoft.com/tags/dart/</link>
+      <pubDate>Wed, 17 Dec 2014 21:47:44 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/tags/dart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dart Force</title>
+      <link>http://laquysoft.com/tags/dart-force/</link>
+      <pubDate>Sun, 06 Apr 2014 21:47:44 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/tags/dart-force/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Structures</title>
+      <link>http://laquysoft.com/tags/data-structures/</link>
+      <pubDate>Sat, 21 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/tags/data-structures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Connectivity</title>
+      <link>http://laquysoft.com/tags/dynamic-connectivity/</link>
+      <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/tags/dynamic-connectivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>http://laquysoft.com/tags/go/</link>
+      <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go Lang</title>
+      <link>http://laquysoft.com/tags/go-lang/</link>
+      <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/tags/go-lang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>http://laquysoft.com/tags/golang/</link>
+      <pubDate>Sat, 21 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Laquysoft</title>
+      <link>http://laquysoft.com/tags/laquysoft/</link>
+      <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/tags/laquysoft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Polymer</title>
+      <link>http://laquysoft.com/tags/polymer/</link>
+      <pubDate>Sun, 06 Apr 2014 21:47:44 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/tags/polymer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quick Find</title>
+      <link>http://laquysoft.com/tags/quick-find/</link>
+      <pubDate>Sat, 21 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/tags/quick-find/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quick Union</title>
+      <link>http://laquysoft.com/tags/quick-union/</link>
+      <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/tags/quick-union/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Review</title>
+      <link>http://laquysoft.com/tags/review/</link>
+      <pubDate>Wed, 17 Dec 2014 21:47:44 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/tags/review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stagexl</title>
+      <link>http://laquysoft.com/tags/stagexl/</link>
+      <pubDate>Sun, 06 Apr 2014 21:47:44 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/tags/stagexl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Start</title>
+      <link>http://laquysoft.com/tags/start/</link>
+      <pubDate>Sat, 21 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/tags/start/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>http://laquysoft.com/tags/windows/</link>
+      <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows 8</title>
+      <link>http://laquysoft.com/tags/windows-8/</link>
+      <pubDate>Sat, 14 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/tags/windows-8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows Phone</title>
+      <link>http://laquysoft.com/tags/windows-phone/</link>
+      <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/tags/windows-phone/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

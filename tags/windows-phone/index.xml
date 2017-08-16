@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows Phone on Aerial</title>
+    <link>http://laquysoft.com/tags/windows-phone/</link>
+    <description>Recent content in Windows Phone on Aerial</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Untitled</copyright>
+    <lastBuildDate>Mon, 16 Dec 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://laquysoft.com/tags/windows-phone/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows Phone Laquysoft App</title>
+      <link>http://laquysoft.com/2013/12/16/windows-phone-laquysoft-app/</link>
+      <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://laquysoft.com/2013/12/16/windows-phone-laquysoft-app/</guid>
+      <description>**And Now **&amp;#8230;Laquysoft App for Windows Phone is out!
+Now you can follow our blog from your Windows Phone stay tuned for more!</description>
+    </item>
+    
+  </channel>
+</rss>
