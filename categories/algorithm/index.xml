@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithm on Laquysoft</title>
+    <link>http://www.laquysoft.com/categories/algorithm/</link>
+    <description>Recent content in Algorithm on Laquysoft</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Sep 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.laquysoft.com/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dynamic Connectivity: Quick-Union in Go</title>
+      <link>http://www.laquysoft.com/2013/09/dynamic-connectivity-quick-union-in-go/</link>
+      <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.laquysoft.com/2013/09/dynamic-connectivity-quick-union-in-go/</guid>
+      <description>Understood Quick-Find algorithm is too slow if we have many union operations. We have to design a new algorithm to do better, let&amp;#8217;s use a lazy approach where we try to avoid doing work until we have to:
+we could think the array as a set of trees where each entry contains a reference to its parent in the tree. Each element of the array has associated with it a root and we can say that two elements are connected if they have the same root.</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Connectivity: Quick-Find</title>
+      <link>http://www.laquysoft.com/2013/09/dynamic-connectivity-quick-find/</link>
+      <pubDate>Sat, 21 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.laquysoft.com/2013/09/dynamic-connectivity-quick-find/</guid>
+      <description>Let&amp;#8217;s assume our object can be identified by an integer number, we can use an integer Array as data structure for our solution (id[]) . In Quick-Find we consider two sites p and q are in the same component if id[p] is equal do id[q].
+The initQuickFindUF function allocates the zeroed array and assign the slice that refers to that array to Elements; then go through it and set the value corresponding to each index ( *Elements[i] = i *).</description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s Start</title>
+      <link>http://www.laquysoft.com/2013/09/lets-start/</link>
+      <pubDate>Sat, 21 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.laquysoft.com/2013/09/lets-start/</guid>
+      <description>Let’s start this new adventure in blogger-land with a series of post about Algorithms and Go. I choose this two characters because of two targets, to learn a new language ( Go ) and renew my neurons about the classic algorithms studied in the past; I want to mix an old ingredient with a new one. I’m sure this road could take me to perceive new approaches to common problems, and i’m sure this trip is going to be funny.</description>
+    </item>
+    
+  </channel>
+</rss>
