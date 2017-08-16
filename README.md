@@ -1,2 +1,0 @@
-Blog
-# joaobiriba.github.io
