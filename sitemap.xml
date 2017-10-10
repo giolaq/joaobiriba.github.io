@@ -55,12 +55,6 @@
   </url>
   
   <url>
-    <loc>http://laquysoft.com/</loc>
-    <lastmod>2016-08-29T22:21:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://laquysoft.com/tags/algorithms/</loc>
     <lastmod>2013-09-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -122,6 +116,12 @@
   <url>
     <loc>http://laquysoft.com/tags/golang/</loc>
     <lastmod>2013-09-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laquysoft.com/</loc>
+    <lastmod>2016-08-29T22:21:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
